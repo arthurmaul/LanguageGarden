@@ -1,0 +1,8 @@
+: doubled 2 * ;
+: tripled 3 * ;
+: quadrupled 4 * ;
+: squared dup * ;
+: cubed dup squared * ;
+: numbers dup do dup 1 - loop ;
+
+
